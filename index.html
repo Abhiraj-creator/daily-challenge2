@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: one;
+            src: url(Sansation_Regular.ttf);
+        }
+          @font-face {
+            font-family:two;
+            src: url(korataki-rg-3cf0d889-B6eTgmP5.ttf);
+        }
+          @font-face {
+            font-family: three;
+            src: url(korataki-rg-3cf0d889.ttf);
+        }
+          @font-face {
+            font-family: four;
+            src: url(Ndot-55-DoenNkNm.ttf);
+        }
+          @font-face {
+            font-family: five;
+            src: url(Sansation_Regular-COtNG1MQ.ttf);
+        }
+                  @font-face {
+            font-family: six;
+            src: url(remixicon.woff2);
+        }
+        *{
+           padding: 0;
+           margin: 0;
+           box-sizing: border-box;
+        }
+        html,body{
+            height: 100%;
+            width: 100%;
+        }
+        .main{
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+              
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            /* justify-content: space-between; */
+            gap: 90px;
+            padding: 14px 20px;
+        }
+       nav .logo{
+            color: white;
+            font-family: four;
+            font-size: 3.5rem;
+            padding: 20px 40px;
+            background-image: url(https://reimagine.godcarft.fun/Group5.svg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            text-transform: uppercase;
+        }
+      nav .search input{
+        padding: 15px 45px;
+            background-color: black;
+            /* border: 1px solid white; */
+            border: none;outline: none;
+            font-size: 1.4rem;
+            color: white;
+            background-image: url(https://reimagine.godcarft.fun/Group4.png);
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+             font-family: six;
+        }
+        nav .links{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            
+        }
+        nav .links a{
+            background-image: url(https://reimagine.godcarft.fun/Group%201.svg);
+            padding: 20px 40px;
+            color: white;
+            /* font-size: 1.5rem; */
+            text-decoration: none;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: none;
+            text-align: center;
+            font-family: two;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main .content{
+            display: flex;
+            align-items: center;
+            margin-top: 70px;
+            justify-content: space-evenly;
+            padding: 0 70px;
+        }
+        /* .text{
+            padding: 150px 150px;
+        } */
+        .content h1{
+            color: rgba(255, 255, 255,.6);
+             font-family: two;
+            font-size: 2.8rem;
+            font-weight: 100;
+            line-height: 70px;
+            text-transform: uppercase;
+            margin-left: -250px;
+        }
+        .content #pure{
+            padding-left: 50px;
+        }
+        .content .images{
+            display: flex;
+            position: relative;
+        }
+        .images img{
+            height: 65vh;
+            rotate: -35deg;
+        }
+        .images #second{
+            position: absolute;
+            left: 40%;
+        }
+        main>h2{
+            color: white;
+            font-family: four;
+            margin-top: -100px;
+            margin-left: 60px;
+        }
+        .line1{
+            position: absolute;
+          background-color: #fff;
+            height: 160px;
+            width: 3px;
+            left: 23%;
+            top: 11%;
+            rotate: -55deg;
+        }
+          .line2{
+            position: absolute;
+          background-color: #fff;
+            height: 250px;
+            top: 10.9%;
+            width: 3px;
+            rotate: 90deg;
+            left: 35.7%;
+        }  .line3{
+            position: absolute;
+          background-color: #fff;
+            height: 157px;
+            width: 3px;
+            left: 49%;
+            top: 21.3%;
+            rotate: -70deg;
+        }
+        .line4{
+            position: absolute;
+          background-color: #fff;
+            height: 153px;
+            width: 3px;
+           left: 58.9%;
+           top: 25.4%;
+           rotate: 90deg;
+        }
+        .line5{
+            position: absolute;
+          background-color: #fff;
+            height: 290px;
+            width: 3px;
+           left: 45%;
+           top: 15%;
+           rotate: -70deg;
+        }
+        .line6{
+            position: absolute;
+          background-color: #fff;
+            height: 90px;
+            width: 3px;
+           left: 57.2%;
+           top: 36.4%;
+           rotate: 90deg;
+        }
+         .line7{
+            position: absolute;
+          background-color: #fff;
+            height: 319px;
+            width: 3px;
+          right: 11%;
+           top: 15%;
+           rotate: 90deg;
+        }
+         .line8{
+            position: absolute;
+          background-color: #fff;
+            height: 290px;
+            width: 3px;
+          right: 10%;
+           top: 25%;
+           rotate: 90deg;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">Nothing</div>
+            <div class="search">
+                <input type="text" placeholder="Search Here...">
+            </div>
+            <div class="links">
+                <a href="#">Store</a>
+                <a href="#">Support</a>
+                <a href="#">Community</a>
+            </div>
+        </nav>
+        <main>
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+        <div class="line4"></div>
+        <div class="line5"></div>
+        <div class="line6"></div>
+        <div class="line7"></div>
+        <div class="line8"></div>
+
+            <div class="content">
+               <div class="text">
+                 <h1>
+                    Nothing phone (1)
+                </h1>
+                <h1 id="pure"> pure instinct</h1>
+               </div>
+                <div class="images">
+                    <img src="https://reimagine.godcarft.fun/Page_3_img/Rectangle%2041.png" alt="">
+                    <img id="second" src="https://reimagine.godcarft.fun/Page_3_img/BA_ABR_300_1001.png" alt="">
+                </div>
+            </div>
+            <h2> SNAPDRAGON 778G+ | 50 MP Dual Camera</h2>
+        </main>
+    </div>
+</body>
+</html>
